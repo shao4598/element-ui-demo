@@ -1,3 +1,11 @@
+<!--
+ * @Author: jwt 1974890451@qq.com
+ * @Date: 2022-08-04 14:59:36
+ * @LastEditors: jwt 1974890451@qq.com
+ * @LastEditTime: 2022-08-22 19:11:19
+ * @FilePath: \element-ui-demo\src\App.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <template>
   <div id="app">
     <nav>
@@ -6,6 +14,8 @@
       <router-link to="/about">About</router-link>
       |
       <router-link to="/AsyncCascader">AsyncCascader</router-link>
+      |
+      <router-link to="/TheSort">TheSort</router-link>
     </nav>
     <router-view />
   </div>
