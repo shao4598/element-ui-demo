@@ -16,6 +16,8 @@
       <router-link to="/AsyncCascader">AsyncCascader</router-link>
       |
       <router-link to="/TheSort">TheSort</router-link>
+      |
+      <router-link to="/exclusive-switch">ExclusiveSwitch</router-link>
     </nav>
     <router-view />
   </div>

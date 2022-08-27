@@ -11,6 +11,7 @@ import VueRouter from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import AsyncCascader from '../views/async-cascader.vue';
 import TheSort from '../views/the-sort.vue';
+import ExclusiveSwitch from '../views/exclusive-switch.vue';
 
 Vue.use(VueRouter);
 
@@ -39,11 +40,14 @@ const routes = [
     name: 'TheSort',
     component: TheSort,
   },
+  {
+    path: '/exclusive-switch',
+    name: 'exclusive-switch',
+    component: ExclusiveSwitch,
+  },
 ];
-
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
   routes,
 });
 
