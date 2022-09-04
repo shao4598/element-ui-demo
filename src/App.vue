@@ -18,6 +18,8 @@
       <router-link to="/TheSort">TheSort</router-link>
       |
       <router-link to="/exclusive-switch">ExclusiveSwitch</router-link>
+      |
+      <router-link to="/grid-layout">GridLayout</router-link>
     </nav>
     <router-view />
   </div>
