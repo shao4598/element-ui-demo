@@ -13,6 +13,7 @@ import AsyncCascader from '@/views/async-cascader.vue';
 import TheSort from '@/views/the-sort.vue';
 import ExclusiveSwitch from '@/views/exclusive-switch.vue';
 import GridLayout from '@/views/grid-layout.vue';
+import InfiniteScroll from '@/views/infinite-scroll.vue';
 Vue.use(VueRouter);
 
 const routes = [
@@ -49,6 +50,11 @@ const routes = [
     path: '/grid-layout',
     name: 'grid-layout',
     component: GridLayout,
+  },
+  {
+    path: '/infinite-scroll',
+    name: 'infinite-scroll',
+    component: InfiniteScroll,
   },
 ];
 const router = new VueRouter({

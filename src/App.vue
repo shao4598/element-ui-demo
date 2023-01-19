@@ -20,6 +20,8 @@
       <router-link to="/exclusive-switch">ExclusiveSwitch</router-link>
       |
       <router-link to="/grid-layout">GridLayout</router-link>
+      |
+      <router-link to="/infinite-scroll">infinite-scroll</router-link>
     </nav>
     <router-view />
   </div>
