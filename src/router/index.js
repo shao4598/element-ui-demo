@@ -14,6 +14,7 @@ import TheSort from '@/views/the-sort.vue';
 import ExclusiveSwitch from '@/views/exclusive-switch.vue';
 import GridLayout from '@/views/grid-layout.vue';
 import InfiniteScroll from '@/views/infinite-scroll.vue';
+import UploadFile from '@/views/upload-file.vue';
 Vue.use(VueRouter);
 
 const routes = [
@@ -55,6 +56,11 @@ const routes = [
     path: '/infinite-scroll',
     name: 'infinite-scroll',
     component: InfiniteScroll,
+  },
+  {
+    path: '/upload-file',
+    name: 'upload-file',
+    component: UploadFile,
   },
 ];
 const router = new VueRouter({

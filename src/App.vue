@@ -22,6 +22,8 @@
       <router-link to="/grid-layout">GridLayout</router-link>
       |
       <router-link to="/infinite-scroll">infinite-scroll</router-link>
+      |
+      <router-link to="/upload-file">upload-file</router-link>
     </nav>
     <router-view />
   </div>
