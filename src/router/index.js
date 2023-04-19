@@ -15,6 +15,7 @@ import ExclusiveSwitch from '@/views/exclusive-switch.vue';
 import GridLayout from '@/views/grid-layout.vue';
 import InfiniteScroll from '@/views/infinite-scroll.vue';
 import UploadFile from '@/views/upload-file.vue';
+import SelectSearch from '@/views/select-search.vue';
 Vue.use(VueRouter);
 
 const routes = [
@@ -61,6 +62,11 @@ const routes = [
     path: '/upload-file',
     name: 'upload-file',
     component: UploadFile,
+  },
+  {
+    path: '/select-search',
+    name: 'select-search',
+    component: SelectSearch,
   },
 ];
 const router = new VueRouter({

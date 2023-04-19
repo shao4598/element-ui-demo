@@ -24,6 +24,8 @@
       <router-link to="/infinite-scroll">infinite-scroll</router-link>
       |
       <router-link to="/upload-file">upload-file</router-link>
+      |
+      <router-link to="/select-search">SelectSearch</router-link>
     </nav>
     <router-view />
   </div>
